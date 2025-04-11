@@ -68,7 +68,7 @@ Acceder a la URL y ejecutar un comando básico:
 http://localhost/rce.php
 ~~~
 
-![](images/pps-rce-1.png)
+![](images/rce1.png)
 
 
 Si introducimos una dirección ip se nos muestra si el servidor está accesible
@@ -80,11 +80,11 @@ Sin embargo podemos anudar consultas con el operador & por ejemplo
 ~~~
  que nos mostraría el usuario con el que estamos ejecutando las sentencias php:
 
-![](images/pps-rce-1.png)
+![](images/rce2.png)
 
 Si se muestra información del sistema o similar (uid=1000(user) gid=1000(user)), la aplicación es vulnerable.
 
-![](images/pps-rce-1.png)
+![](images/rce3.png)
 
 **Intentar listar archivos del servidor:**
 
